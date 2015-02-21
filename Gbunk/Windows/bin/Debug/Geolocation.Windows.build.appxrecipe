@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LENOVO-PC</Machine>
+    <WindowsUser>sebin</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>Microsoft.SDKSamples.Geolocation.JS</PackageIdentityName>
+    <IntermediateOutputPath>G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="G:\VS_samples\Geolocation sample\JavaScript\Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Windows\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\html\scenario1_TrackPosition.html">
+      <PackagePath>html\scenario1_TrackPosition.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\html\scenario2_GetPosition.html">
+      <PackagePath>html\scenario2_GetPosition.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\html\scenario3_BackgroundTask.html">
+      <PackagePath>html\scenario3_BackgroundTask.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\html\scenario4_ForegroundGeofence.html">
+      <PackagePath>html\scenario4_ForegroundGeofence.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\html\scenario5_GeofenceBackgroundTask.html">
+      <PackagePath>html\scenario5_GeofenceBackgroundTask.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\sample-utils\footer.html">
+      <PackagePath>sample-utils\footer.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\sample-utils\header.html">
+      <PackagePath>sample-utils\header.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\sample-utils\scenario-select.html">
+      <PackagePath>sample-utils\scenario-select.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Windows\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Windows\css\windows-app.css">
+      <PackagePath>css\windows-app.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\css\scenario1_TrackPosition.css">
+      <PackagePath>css\scenario1_TrackPosition.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\css\scenario2_GetPosition.css">
+      <PackagePath>css\scenario2_GetPosition.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\css\scenario3_BackgroundTask.css">
+      <PackagePath>css\scenario3_BackgroundTask.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\css\scenario4_ForegroundGeofence.css">
+      <PackagePath>css\scenario4_ForegroundGeofence.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\css\scenario5_GeofenceBackgroundTask.css">
+      <PackagePath>css\scenario5_GeofenceBackgroundTask.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\sample-utils\scenario-select.css">
+      <PackagePath>sample-utils\scenario-select.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Windows\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\js\scenario4_ForegroundGeofence.js">
+      <PackagePath>js\scenario4_ForegroundGeofence.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\js\backgroundtask.js">
+      <PackagePath>js\backgroundtask.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\js\geofencebackgroundtask.js">
+      <PackagePath>js\geofencebackgroundtask.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\js\geofenceitem.js">
+      <PackagePath>js\geofenceitem.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\js\scenario1_TrackPosition.js">
+      <PackagePath>js\scenario1_TrackPosition.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\js\scenario2_GetPosition.js">
+      <PackagePath>js\scenario2_GetPosition.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\js\scenario3_BackgroundTask.js">
+      <PackagePath>js\scenario3_BackgroundTask.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\js\scenario5_GeofenceBackgroundTask.js">
+      <PackagePath>js\scenario5_GeofenceBackgroundTask.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\sample-utils\sample-utils.js">
+      <PackagePath>sample-utils\sample-utils.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\js\sample-configuration.js">
+      <PackagePath>js\sample-configuration.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\images\badge-logo.png">
+      <PackagePath>images\badge-logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\images\microsoft-sdk.png">
+      <PackagePath>images\microsoft-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\images\mediumtile-sdk.png">
+      <PackagePath>images\mediumtile-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\images\smalltile-Windows-sdk.png">
+      <PackagePath>images\smalltile-Windows-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\images\smalltile-Phone-sdk.png">
+      <PackagePath>images\smalltile-Phone-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\images\splash-Windows-sdk.png">
+      <PackagePath>images\splash-Windows-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\images\splash-Phone-sdk.png">
+      <PackagePath>images\splash-Phone-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\images\squaretile-sdk.png">
+      <PackagePath>images\squaretile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\images\storelogo-sdk.png">
+      <PackagePath>images\storelogo-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\images\tile-sdk.png">
+      <PackagePath>images\tile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Shared\images\windows-sdk.png">
+      <PackagePath>images\windows-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\VS_samples\Geolocation sample\JavaScript\Windows\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

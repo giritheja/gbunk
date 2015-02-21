@@ -1,0 +1,15 @@
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bin\Debug\ReverseMap\resources.pri
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bin\Debug\AppxManifest.xml
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bin\Debug\Geolocation.Windows.build.appxrecipe
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\priconfig.xml
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\priconfig.xml.intermediate
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\layout.resfiles
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\layout.resfiles.intermediate
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\resources.resfiles
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\resources.resfiles.intermediate
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\pri.resfiles
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\pri.resfiles.intermediate
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\qualifiers.txt
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\qualifiers.txt.intermediate
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+G:\VS_samples\Geolocation sample\JavaScript\Windows\bld\Debug\ProjectArchitectures.txt

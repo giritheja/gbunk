@@ -1,0 +1,1 @@
+G:\VS_samples\Geolocation sample\JavaScript\Windows\Geolocation.Windows.jsproj;neutral
