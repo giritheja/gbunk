@@ -1,0 +1,30 @@
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bin\Debug\ReverseMap\resources.pri
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bin\Debug\AppxManifest.xml
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bin\Debug\Geolocation.Windows.build.appxrecipe
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\priconfig.xml
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\priconfig.xml.intermediate
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\layout.resfiles
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\layout.resfiles.intermediate
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\resources.resfiles
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\resources.resfiles.intermediate
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\pri.resfiles
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\pri.resfiles.intermediate
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\qualifiers.txt
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\qualifiers.txt.intermediate
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\MICROSOFT CERTIFICATES\Geolocation sample\JavaScript\Windows\bld\Debug\ProjectArchitectures.txt
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bin\Debug\ReverseMap\resources.pri
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bin\Debug\AppxManifest.xml
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bin\Debug\Geolocation.Windows.build.appxrecipe
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\priconfig.xml
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\priconfig.xml.intermediate
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\layout.resfiles
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\layout.resfiles.intermediate
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\resources.resfiles
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\resources.resfiles.intermediate
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\pri.resfiles
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\pri.resfiles.intermediate
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\qualifiers.txt
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\ProjectArchitectures.txt

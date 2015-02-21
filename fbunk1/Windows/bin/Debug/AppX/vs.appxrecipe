@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CHINMAY</Machine>
+    <WindowsUser>Chinmay</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>Microsoft.SDKSamples.Geolocation.JS</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Chinmay\Desktop\fbunk1\Windows\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>6199A1FDF3F12058E1488571100A4F9EF6284E2A4D0038CD486A11B624522AC8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Microsoft.SDKSamples.Geolocation.JS_1.0.0.0_neutral__8wekyb3d8bbwe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>Microsoft.SDKSamples.Geolocation.JS_8wekyb3d8bbwe!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>Microsoft.SDKSamples.Geolocation.JS</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Chinmay\Desktop\fbunk1\Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-21T21:02:13.961</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Windows\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\html\scenario0_TimeTable.html">
+      <PackagePath>html\scenario0_TimeTable.html</PackagePath>
+      <Modified>2015-02-21T21:37:43.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\html\scenario1_TrackPosition.html">
+      <PackagePath>html\scenario1_TrackPosition.html</PackagePath>
+      <Modified>2015-02-21T19:33:41.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\html\scenario2_GetPosition.html">
+      <PackagePath>html\scenario2_GetPosition.html</PackagePath>
+      <Modified>2015-02-21T13:57:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\html\scenario3_BackgroundTask.html">
+      <PackagePath>html\scenario3_BackgroundTask.html</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\html\scenario4_ForegroundGeofence.html">
+      <PackagePath>html\scenario4_ForegroundGeofence.html</PackagePath>
+      <Modified>2015-02-21T21:44:43.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\html\scenario5_GeofenceBackgroundTask.html">
+      <PackagePath>html\scenario5_GeofenceBackgroundTask.html</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\html\scenario6_BunkList.html">
+      <PackagePath>html\scenario6_BunkList.html</PackagePath>
+      <Modified>2015-02-21T20:44:04.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\sample-utils\footer.html">
+      <PackagePath>sample-utils\footer.html</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\sample-utils\header.html">
+      <PackagePath>sample-utils\header.html</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\sample-utils\scenario-select.html">
+      <PackagePath>sample-utils\scenario-select.html</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Windows\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Windows\css\windows-app.css">
+      <PackagePath>css\windows-app.css</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\css\scenario1_TrackPosition.css">
+      <PackagePath>css\scenario1_TrackPosition.css</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\css\scenario2_GetPosition.css">
+      <PackagePath>css\scenario2_GetPosition.css</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\css\scenario3_BackgroundTask.css">
+      <PackagePath>css\scenario3_BackgroundTask.css</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\css\scenario4_ForegroundGeofence.css">
+      <PackagePath>css\scenario4_ForegroundGeofence.css</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\css\scenario5_GeofenceBackgroundTask.css">
+      <PackagePath>css\scenario5_GeofenceBackgroundTask.css</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\sample-utils\scenario-select.css">
+      <PackagePath>sample-utils\scenario-select.css</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Windows\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\js\scenario4_ForegroundGeofence.js">
+      <PackagePath>js\scenario4_ForegroundGeofence.js</PackagePath>
+      <Modified>2015-02-21T14:17:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\js\backgroundtask.js">
+      <PackagePath>js\backgroundtask.js</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\js\geofencebackgroundtask.js">
+      <PackagePath>js\geofencebackgroundtask.js</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\js\geofenceitem.js">
+      <PackagePath>js\geofenceitem.js</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\js\scenario1_TrackPosition.js">
+      <PackagePath>js\scenario1_TrackPosition.js</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\js\scenario2_GetPosition.js">
+      <PackagePath>js\scenario2_GetPosition.js</PackagePath>
+      <Modified>2015-02-21T13:57:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\js\scenario3_BackgroundTask.js">
+      <PackagePath>js\scenario3_BackgroundTask.js</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\js\scenario5_GeofenceBackgroundTask.js">
+      <PackagePath>js\scenario5_GeofenceBackgroundTask.js</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\sample-utils\sample-utils.js">
+      <PackagePath>sample-utils\sample-utils.js</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\js\sample-configuration.js">
+      <PackagePath>js\sample-configuration.js</PackagePath>
+      <Modified>2015-02-21T21:07:22.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\images\badge-logo.png">
+      <PackagePath>images\badge-logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\images\microsoft-sdk.png">
+      <PackagePath>images\microsoft-sdk.png</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\images\mediumtile-sdk.png">
+      <PackagePath>images\mediumtile-sdk.png</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\images\smalltile-Windows-sdk.png">
+      <PackagePath>images\smalltile-Windows-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\images\smalltile-Phone-sdk.png">
+      <PackagePath>images\smalltile-Phone-sdk.png</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\images\splash-Windows-sdk.png">
+      <PackagePath>images\splash-Windows-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\images\splash-Phone-sdk.png">
+      <PackagePath>images\splash-Phone-sdk.png</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\images\squaretile-sdk.png">
+      <PackagePath>images\squaretile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\images\storelogo-sdk.png">
+      <PackagePath>images\storelogo-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\images\tile-sdk.png">
+      <PackagePath>images\tile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Shared\images\windows-sdk.png">
+      <PackagePath>images\windows-sdk.png</PackagePath>
+      <Modified>2014-05-13T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chinmay\Desktop\fbunk1\Windows\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-02-21T21:02:13.879</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

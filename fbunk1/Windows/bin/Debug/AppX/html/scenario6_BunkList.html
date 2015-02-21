@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function submit() {
+                document.getElementById("tempo").innerHTML = WinJS.Application.sessionState.Subjects;
+                
+                var n = document.getElementById("nameofsubject").value;
+                var temp = document.getElementById("sub");          
+                var mon = document.getElementById("mon").value;
+                var tue = document.getElementById("tue").value;
+                var wed = document.getElementById("wed").value;
+                var thu = document.getElementById("thu").value;
+                var fri = document.getElementById("fri").value;
+                var d = [mon, tue, wed, thu, fri];
+                
+                function Subject(nos, day) {
+                    var settings = WinJS.Application.sessionState;
+                    if (!settings.Subjects) {
+                        settings.Subjects = [];
+                    }
+                    settings.Subjects.push(JSON.stringify({
+                        name: nos,
+                        day: day,
+                        attendance: 0,
+                        bunk: 0
+                    }));
+                }
+                var e = new Subject(n, d);    
+                //document.getElementById("data").innerHTML = n;
+            };
+    </script>
+</head>
+<body>
+    <div>
+        <p>Enter Subject Name</p>
+        <input type="text" id="nameofsubject">
+
+        <p>Monday</p>
+        <select id="mon">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+
+        <p>Tuesday</p>
+        <select id="tue">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+
+        <p>Wednesday</p>
+        <select id="wed">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+
+        <p>Thursday</p>
+        <select id="thu">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+
+        <p>Friday</p>
+        <select id="fri">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+        </div>
+        
+        <div>
+        <p id="tempo"></p>
+        </div>
+
+        <br>
+        <button class="action" onclick="submit();" value="Submit the details" id="sub">Submit Details</button>
+        <p id="data"></p>
+</body>
+</html>
