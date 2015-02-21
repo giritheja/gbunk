@@ -1,36 +1,37 @@
-function(
+
     var submit = document.getElementById("submit");
-    var place = document.getElementById('place');
-    submit.addEventListener("click", function setPositionToHere(place) {
-    var geolocator = new Windows.Devices.Geolocation.Geolocator();
+    var data = document.getElementById("data");
+    submit.addEventListener("click", function setPositionToHere() {
+        var geolocator = new Windows.Devices.Geolocation.Geolocator();
 
-    promise = geolocator.getGeopositionAsync();
-    promise.done(
-        function (pos) {
-            var coord = pos.coordinate;
+        promise = geolocator.getGeopositionAsync();
+        promise.done(
+            function (pos) {
+                var coord = pos.coordinate;
 
-            var settings = Windows.Storage.ApplicationData.current.localSettings;
-            settings.values["Status"] = coord.timestamp;
-            settings.values["latitude"] = coord.point.position.latitude;
-            settings.values["longitude"] = coord.point.position.longitude;
-            settings.values["accuracy"] = coord.accuracy;
+                var settings = Windows.Storage.ApplicationData.current.localSettings;
+                settings.values["Status"] = coord.timestamp;
+                settings.values["latitude"] = coord.point.position.latitude;
+                settings.values["longitude"] = coord.point.position.longitude;
+                settings.values["accuracy"] = coord.accuracy;
+                data.innerHTML= coord.point.position.latitude;
+                
 
+                // A JavaScript background task must call close when it is done
+                close();
+            },
+            function (err) {
+                var settings = Windows.Storage.ApplicationData.current.localSettings;
+                settings.values["Status"] = err.message;
 
-            // A JavaScript background task must call close when it is done
-            close();
-        },
-        function (err) {
-            var settings = Windows.Storage.ApplicationData.current.localSettings;
-            settings.values["Status"] = err.message;
+                settings.values["latitude"] = "No data";
+                settings.values["longitude"] = "No data";
+                settings.values["accuracy"] = "No data";
 
-            settings.values["latitude"] = "No data";
-            settings.values["longitude"] = "No data";
-            settings.values["accuracy"] = "No data";
+                backgroundTaskInstance.succeeded = false;
 
-            backgroundTaskInstance.succeeded = false;
-
-            // A JavaScript background task must call close when it is done
-            close();
-        }
-}
-)();
+                // A JavaScript background task must call close when it is done
+                close();
+            }
+        );
+    })
